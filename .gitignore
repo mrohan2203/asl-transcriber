@@ -1,0 +1,18 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+env/
+
+# Project Data (Keep the repo lightweight)
+ASL_Data_WLASL/
+*.mp4
+
+# Note: We are explicitly NOT ignoring asl_model.pth 
+# so the repository works out-of-the-box for inference.
+EOF
